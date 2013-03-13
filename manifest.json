@@ -1,0 +1,31 @@
+{
+    "AppDescription": { 
+        "en" : "Album cover app"
+    },
+    "AppIcon" : {
+        "18x18" :"/images/icon_18.png", 
+        "64x64" : "/images/icon_64.png", 
+        "128x128" : "/images/icon_128.png", 
+        "300x300" : "/images/icon_300.png"
+    },
+    "AppName" : { 
+        "en" : "Godzillafied"
+    },
+    "BundleIdentifier": "godzillafied",
+    "BundleType" : "Application",
+    "BundleVersion" : "1.0.0",
+    "RequiredPermissions" : [
+        "http://*.spotify.com", 
+        "http://spotify.com",
+        "http://godzillafied.grito.co.uk",
+        "http://*.mzstatic.com"
+    ],
+    "SupportedLanguages" : ["en"],
+    "VendorIdentifier" : "uk.co.godzillafied",
+    "Dependencies" :{ 
+        "api": "0.2.3",
+        "util": "0.1.0",
+        "resources": "0.2.2"
+    }
+    
+}

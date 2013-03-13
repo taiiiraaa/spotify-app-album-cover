@@ -1,0 +1,104 @@
+html
+{
+    overflow-y:scroll;
+    background-color: #222222;
+    color:#49484A;
+}
+body {
+    padding-bottom: 40px;
+    background-color: #222222;
+    color:#49484A;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color:#49484A;
+}
+
+.header
+{
+   background-color: #439100;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header a
+{
+    font-size:2.4em;
+    font-weight: bold;
+    letter-spacing: 0.125em;
+    margin-left: 0;
+    padding: 0.6em 1em;
+    display: block;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.container
+{
+    text-align:center;
+    font-size:1em
+}
+
+.zf-green {
+    color: #68b604;
+}
+
+img
+{
+    max-width: 60%;  
+}
+
+#content
+{
+    padding-top:28px;
+}
+
+.songDetails
+{
+    padding:16px 0 0 0;
+}
+
+.songDetails h3
+{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 2em;
+}
+.songDetails h4
+{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+hr 
+{
+    margin-top: 28px;
+    border-color:#49484A;
+}
+
+form#lastfmUsername
+{
+    padding:1em 0 0 0;
+}
+
+input.username
+{
+    width:24%;
+    padding:0.2em 0.6em;
+    margin-right:1em;
+    font-size:1.5em;
+    height:auto;
+}
+
+input#goButton
+{
+    font-size: 1.5em;
+    padding:0.2em 0.6em;
+}
+
+footer p
+{
+    font-size:1em;
+    padding:0 1em;
+    text-align:left;
+}
